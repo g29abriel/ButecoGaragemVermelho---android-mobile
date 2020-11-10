@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="butecogaragem.cursoandroid.com.butecogaragem.TelaHamburguer"
+    android:background="#383333">
+
+    <Button
+        android:id="@+id/button_simples"
+        android:layout_width="165dp"
+        android:layout_height="90dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="57dp"
+        android:backgroundTint="#86ffffff"
+        android:text="SIMPLES"
+        android:textColor="#000000"
+        android:textSize="@dimen/texto_simples"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button_doblo"
+        android:layout_width="165dp"
+        android:layout_height="90dp"
+        android:layout_above="@+id/button_egg"
+        android:layout_alignLeft="@+id/button_costela"
+        android:layout_alignStart="@+id/button_costela"
+        android:backgroundTint="#86ffffff"
+        android:text="DOBLO"
+        android:textColor="#000000"
+        android:textSize="@dimen/texto_doblo"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button_egg"
+        android:layout_width="165dp"
+        android:layout_height="90dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/button_simples"
+        android:backgroundTint="#86ffffff"
+        android:text="EGG"
+        android:textColor="#000000"
+        android:textSize="@dimen/texto_egg"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button_costela"
+        android:layout_width="165dp"
+        android:layout_height="90dp"
+        android:layout_alignBottom="@+id/button_egg"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:backgroundTint="#86ffffff"
+        android:text="COSTELA"
+        android:textColor="#000000"
+        android:textSize="@dimen/texto_costela"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button_bacon"
+        android:layout_width="165dp"
+        android:layout_height="90dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/button_egg"
+        android:backgroundTint="#86ffffff"
+        android:text="BACON"
+        android:textColor="#000000"
+        android:textSize="@dimen/texto_bacon"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button_torre"
+        android:layout_width="165dp"
+        android:layout_height="90dp"
+        android:layout_alignLeft="@+id/button_costela"
+        android:layout_alignStart="@+id/button_costela"
+        android:layout_alignTop="@+id/button_bacon"
+        android:backgroundTint="#86ffffff"
+        android:text="TORRE EIFFEL"
+        android:textColor="#000000"
+        android:textSize="@dimen/texto_torre_eiffel"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:id="@+id/imageView10"
+        android:layout_below="@+id/button_bacon"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/a" />
+
+    <Button
+        android:id="@+id/buttonVoltarHambur"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/button_simples"
+        android:layout_marginBottom="14dp"
+        android:background="@drawable/abc_vector_test" />
+
+</RelativeLayout>

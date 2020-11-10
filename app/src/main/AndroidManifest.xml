@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="butecogaragem.cursoandroid.com.butecogaragem">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".TelaComidas" />
+        <activity android:name=".TelaFrango" />
+        <activity android:name=".TelaHamburguer" />
+        <activity android:name=".TelaFritas" />
+        <activity android:name=".TelaPetiscos" />
+        <activity android:name=".TelaFrios" />
+        <activity android:name=".TelaPorco" />
+        <activity android:name=".TelaCarne" />
+        <activity android:name=".TelaPeixe" />
+        <activity android:name=".TelaPreFinal" />
+        <activity android:name=".TelaFinal"></activity>
+    </application>
+
+</manifest>

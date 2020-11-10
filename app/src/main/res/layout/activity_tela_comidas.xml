@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="butecogaragem.cursoandroid.com.butecogaragem.TelaComidas"
+    android:background="#383333">
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:text="PORCO"
+        android:id="@+id/button_porco"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textSize="@dimen/texto_porco"
+        android:backgroundTint="#86ffffff"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:text="FRANGO"
+        android:id="@+id/button_frango"
+        android:layout_below="@+id/button_porco"
+        android:layout_alignLeft="@+id/button_porco"
+        android:layout_alignStart="@+id/button_porco"
+        android:textSize="@dimen/texto_frango"
+        android:backgroundTint="#86ffffff"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:text="PETISCOS"
+        android:id="@+id/button_petiscos"
+        android:layout_below="@+id/button_frango"
+        android:layout_alignLeft="@+id/button_frango"
+        android:layout_alignStart="@+id/button_frango"
+        android:textSize="@dimen/texto_petiscos"
+        android:backgroundTint="#86ffffff"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:text="FRIOS"
+        android:id="@+id/button_frios"
+        android:layout_below="@+id/button_petiscos"
+        android:layout_alignLeft="@+id/button_petiscos"
+        android:layout_alignStart="@+id/button_petiscos"
+        android:textSize="@dimen/texto_frios"
+        android:backgroundTint="#86ffffff"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:text="HAMBURGUER"
+        android:id="@+id/button_hamburguer"
+        android:layout_below="@+id/button_frios"
+        android:layout_alignLeft="@+id/button_frios"
+        android:layout_alignStart="@+id/button_frios"
+        android:textSize="@dimen/texto_hamburguer"
+        android:backgroundTint="#86ffffff"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:text="PEIXE"
+        android:id="@+id/button_peixe"
+        android:layout_below="@+id/button_hamburguer"
+        android:layout_alignLeft="@+id/button_hamburguer"
+        android:layout_alignStart="@+id/button_hamburguer"
+        android:textSize="@dimen/texto_peixe"
+        android:backgroundTint="#86ffffff"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:text="FRITAS"
+        android:id="@+id/button_fritas"
+        android:layout_below="@+id/button_peixe"
+        android:layout_alignLeft="@+id/button_peixe"
+        android:layout_alignStart="@+id/button_peixe"
+        android:textSize="@dimen/texto_fritas"
+        android:backgroundTint="#86ffffff"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:text="CARNE"
+        android:id="@+id/button_carne"
+        android:layout_below="@+id/button_fritas"
+        android:layout_alignLeft="@+id/button_hamburguer"
+        android:layout_alignStart="@+id/button_hamburguer"
+        android:textSize="@dimen/texto_carne"
+        android:backgroundTint="#86ffffff"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:layout_above="@+id/button_frango"
+        android:layout_toLeftOf="@+id/button_porco"
+        android:layout_alignTop="@+id/button_porco"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:src="@drawable/c" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView2"
+        android:layout_alignBottom="@+id/button_frango"
+        android:layout_toLeftOf="@+id/button_frango"
+        android:layout_alignTop="@+id/button_frango"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:src="@drawable/h" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView3"
+        android:layout_above="@+id/button_frios"
+        android:layout_toLeftOf="@+id/button_petiscos"
+        android:layout_alignTop="@+id/button_petiscos"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:src="@drawable/e" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView4"
+        android:layout_alignBottom="@+id/button_frios"
+        android:layout_toLeftOf="@+id/button_frios"
+        android:layout_below="@+id/button_petiscos"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:src="@drawable/d" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView5"
+        android:layout_alignBottom="@+id/button_hamburguer"
+        android:layout_alignRight="@+id/imageView4"
+        android:layout_alignEnd="@+id/imageView4"
+        android:layout_alignTop="@+id/button_hamburguer"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:src="@drawable/a" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView6"
+        android:layout_alignBottom="@+id/button_peixe"
+        android:layout_alignRight="@+id/imageView5"
+        android:layout_alignEnd="@+id/imageView5"
+        android:layout_alignTop="@+id/button_peixe"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:src="@drawable/b" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView7"
+        android:layout_above="@+id/button_carne"
+        android:layout_toLeftOf="@+id/button_fritas"
+        android:layout_alignTop="@+id/button_fritas"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:src="@drawable/f" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView8"
+        android:layout_alignBottom="@+id/button_carne"
+        android:layout_toLeftOf="@+id/button_carne"
+        android:layout_below="@+id/button_fritas"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:src="@drawable/g" />
+
+</RelativeLayout>
